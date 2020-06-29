@@ -1,0 +1,14 @@
+{
+  "name": "lerna-react-ts-libs",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": "git@github.com:jayjnu/lerna-react-ts-libs.git",
+  "author": "jayjnu <doublejnu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
