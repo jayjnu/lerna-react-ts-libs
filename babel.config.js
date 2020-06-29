@@ -1,18 +1,18 @@
 module.exports = {
-    "presets": [
+    'presets': [
         [
-            "@babel/preset-env",
+            '@babel/preset-env',
             {
-                "targets": {
-                    "esmodules": true
+                'targets': {
+                    'esmodules': true
                 }
             }
         ],
-        "@babel/preset-react",
-        "@babel/preset-typescript"
+        '@babel/preset-react',
+        '@babel/preset-typescript'
     ],
-    "plugins": [
-        "@babel/plugin-proposal-class-properties",
+    'plugins': [
+        '@babel/plugin-proposal-class-properties',
         [
             'babel-plugin-import',
             {
@@ -33,7 +33,7 @@ module.exports = {
         ],
     ],
     babelrcRoots: [
-        ".",
-        "packages/*"
+        '.',
+        'packages/*'
     ]
 }
